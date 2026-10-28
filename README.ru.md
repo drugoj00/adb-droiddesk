@@ -2,6 +2,8 @@
 
 🌐 Все наши программы: https://drugoj00.github.io/
 
+Описание и скриншоты: https://drugoj00.github.io/phone-in-window-with-sound/adb-droiddesk.html
+
 <img src="screenshots/icon_128.png" alt="" width="96" align="right">
 
 # ADB DroidDesk
