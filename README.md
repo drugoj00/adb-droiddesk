@@ -8,21 +8,22 @@ Description and screenshots: https://drugoj00.github.io/phone-in-window-with-sou
 
 # ADB DroidDesk
 
-Android and Android TV from your PC: install any app, adapt apps for a TV box, and Scissors with long screenshots.
+Android and Android TV from your PC: install any app, adapt apps for a TV box, and Long Scissors for screenshots and video.
 
-A free Windows program for phones, tablets and Android TV boxes over USB and Wi-Fi. The focus is Android TV: put anything on a box without a file manager, switch on accessibility services where the system blocks them, adapt a phone app for TV, make a banner. Plus Scissors: regular and long scrolling screenshots with its own editor. The rest is in one window: screen with sound, apps, files, adb console, cleaner, backups. adb and scrcpy are inside, nothing else to install.
+A free Windows program for phones, tablets and Android TV boxes over USB and Wi-Fi. The focus is Android TV: put anything on a box without a file manager, switch on accessibility services where the system blocks them, adapt a phone app for TV, make a banner. Plus Long Scissors: screenshots (long pages too), video and GIF recording, an editor and text from a shot. The rest is in one window: screen with sound, apps, files, adb console, cleaner, backups. adb and scrcpy are inside, nothing else to install.
 
 ⭐ If the program is useful, please star this repository: it costs nothing and helps other people find it.
 
 ## Download
 
-**Version 1.0.** [ADBDroidDesk-1.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
+**Version 2.0.** [ADBDroidDesk-2.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
 
-SHA-256: `08300ea25bf4a365c5f734bf2d64a2dc6a933cdc988dfcb5cc38427d38aa0950`
+SHA-256: `203d6f81af445203ef6f6e582f97a3ce3ca83d3ac733c42a8f9d4be1f7e79772`
 
-## What's new in 1.0
+## What's new in 2.0
 
-- First public version: everything listed above.
+- Long Scissors built in: screenshots, long pages, video and GIF, editor, text from a shot, history.
+- “This computer” tab: details of the Windows PC.
 
 ## Features
 
@@ -38,12 +39,12 @@ SHA-256: `08300ea25bf4a365c5f734bf2d64a2dc6a933cdc988dfcb5cc38427d38aa0950`
 - Banners 320×180, 640×360, 1280×720; icon and cover images from Google Play.
 - Remote: arrows, OK, Back, Home, volume, text input; to several devices at once.
 
-### Scissors
+### Long Scissors
 
-- Screenshot of an area, a window, the whole screen and long ones: scrolling down and right.
-- Timer up to 10 s to open a menu; PNG, JPG, WEBP, BMP, PDF.
-- Built-in editor: drawing, arrows, text, blur; copy to the clipboard.
-- Starts from its own shortcut, without the main window.
+- Area, window, whole screen and a long page with auto-scroll.
+- Video with sound and GIFs with a size limit.
+- Editor, “Pretty”, text from a shot (OCR), history with search, joining and converting.
+- A click on the tray icon captures at once; Ctrl+Shift+S opens the panel.
 
 ### Everything else
 
@@ -52,22 +53,24 @@ SHA-256: `08300ea25bf4a365c5f734bf2d64a2dc6a933cdc988dfcb5cc38427d38aa0950`
 - Files: internal storage and card, drag and drop both ways.
 - adb console with highlighting and history, logcat with filters.
 - Cleaner with a database of known bloatware and rollback; app backups.
-- Device overview like CPU-Z: CPU, memory, battery, display, cameras, sensors.
+- Device overview like CPU-Z: CPU, memory, battery, display, cameras, sensors; a “This computer” tab does the same for the Windows PC itself.
 - Several devices at once, USB and Wi-Fi, pairing by code; tray icon; Russian, Ukrainian, English; light and dark theme.
 
 ## Screenshots
 
 ![Android TV → Install: any APK, APKS, APKM, XAPK, ZIP with OBB](screenshots/en/01_androidtv_установка.png)
 
-![Android TV → Accessibility: services without the TV settings](screenshots/en/02_androidtv_спецвозможности.png)
-
 ![Android TV → Adapt an app for TV](screenshots/en/03_androidtv_подстройка.png)
 
-![Android TV → Launcher banner](screenshots/en/04_androidtv_баннер.png)
-
-![Scissors: area, window, screen, long screenshot](screenshots/en/11_ножницы.png)
-
 ![Device overview](screenshots/en/05_обзор.png)
+
+![This computer](screenshots/en/11_этот_компьютер.png)
+
+![Long Scissors: capture panel](screenshots/en/12_ножницы_панель.png)
+
+![Long Scissors: editor](screenshots/en/13_ножницы_редактор.png)
+
+![Long Scissors: history and text search](screenshots/en/15_ножницы_история.png)
 
 ![Apps](screenshots/en/06_приложения.png)
 
@@ -85,7 +88,7 @@ Windows 10 or 11 (64-bit); an Android phone or box with debugging on (USB or net
 
 ## Quick start
 
-1. Download ADBDroidDesk-1.0.exe and run it; Windows asks for permission (if declined, the program goes into your user folder).
+1. Download ADBDroidDesk-2.0.exe and run it; Windows asks for permission (if declined, the program goes into your user folder).
 2. On the device: Developer options → USB debugging (a box: network debugging); connect the cable and allow debugging.
 3. A box over Wi-Fi: “+ Wi-Fi” → IP and port, usually 5555.
 4. Android TV → Install: drop app files into the window and press Install.
