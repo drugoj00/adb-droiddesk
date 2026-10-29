@@ -18,7 +18,7 @@ Android і Android TV з комп’ютера: встановлення буд�
 
 **Версія 2.0.** [ADBDroidDesk-2.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
 
-SHA-256: `203d6f81af445203ef6f6e582f97a3ce3ca83d3ac733c42a8f9d4be1f7e79772`
+SHA-256: `b6f8ba3738d1c2fc5e4d45be06840c6f69410994e0b5044746212f9e11292d1e`
 
 ## Що нового в 2.0
 
