@@ -16,14 +16,21 @@ A free Windows program for phones, tablets and Android TV boxes over USB and Wi-
 
 ## Download
 
-**Version 2.0.** [ADBDroidDesk-2.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
+**Version 3.0.** [ADBDroidDesk-3.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
 
-SHA-256: `b6f8ba3738d1c2fc5e4d45be06840c6f69410994e0b5044746212f9e11292d1e`
+SHA-256: `f178316c9078d022b54fe239e97d6df442bedacea9fd7e3a2977dc80212b5da0`
 
-## What's new in 2.0
+## What's new in 3.0
 
-- Long Scissors built in: screenshots, long pages, video and GIF, editor, text from a shot, history.
-- “This computer” tab: details of the Windows PC.
+- “Connect” tab: devices over the internet through Tailscale, ADB connection, link check, file (Taildrop).
+- Video call without a browser: pick a person, “Calling… Answer / Decline”, sound, speaker and camera buttons.
+- A wizard that sets up Tailscale on the PC and on an Android device.
+- Invitations by program code: bring a person into your network and accept an invitation.
+- Screen of another computer and “Access to this screen”.
+- Files: two panes, copy, move and delete between the PC, a device and another computer.
+- Auto-connect of known devices over the home network and through Tailscale.
+- Program update from GitHub: release check and install over.
+- Fixed: a second icon on Samsung after installing an APK.
 
 ## Features
 
@@ -46,11 +53,20 @@ SHA-256: `b6f8ba3738d1c2fc5e4d45be06840c6f69410994e0b5044746212f9e11292d1e`
 - Editor, “Pretty”, text from a shot (OCR), history with search, joining and converting.
 - A click on the tray icon captures at once; Ctrl+Shift+S opens the panel.
 
+### Connection over the internet
+
+- “Connect” tab: Tailscale network devices, link type (direct or relay), ADB connection, link check.
+- Wizard: Tailscale on the PC and on an Android device, sign-in by key; file sending (Taildrop).
+- Invitations by program code: bring a person into your network, accept an invitation; keys are one-time, valid for an hour.
+- Video call without a browser: call a person from the list, a “Calling…” window, sound, speaker and camera buttons.
+- Screen of another computer and “Access to this screen”; files of another computer in the “Files” tab.
+- Auto-connect of known devices over the home network and through Tailscale.
+
 ### Everything else
 
 - Device screen in a tab: sound (Android 10 too), video recording, screenshot, rotation, a mini window in the screen corner.
 - Apps: names and icons, uninstall and disable system apps with an APK copy, permissions, batch actions.
-- Files: internal storage and card, drag and drop both ways.
+- Files: two panes (PC, device, another computer), copy, move, delete, drag and drop.
 - adb console with highlighting and history, logcat with filters.
 - Cleaner with a database of known bloatware and rollback; app backups.
 - Device overview like CPU-Z: CPU, memory, battery, display, cameras, sensors; a “This computer” tab does the same for the Windows PC itself.
@@ -88,7 +104,7 @@ Windows 10 or 11 (64-bit); an Android phone or box with debugging on (USB or net
 
 ## Quick start
 
-1. Download ADBDroidDesk-2.0.exe and run it; Windows asks for permission (if declined, the program goes into your user folder).
+1. Download ADBDroidDesk-3.0.exe and run it; Windows asks for permission (if declined, the program goes into your user folder).
 2. On the device: Developer options → USB debugging (a box: network debugging); connect the cable and allow debugging.
 3. A box over Wi-Fi: “+ Wi-Fi” → IP and port, usually 5555.
 4. Android TV → Install: drop app files into the window and press Install.
@@ -102,3 +118,4 @@ Windows 10 or 11 (64-bit); an Android phone or box with debugging on (USB or net
 - Android 10 sound goes through sndcpy; Android 11+ sends sound by itself.
 - The installer is not signed with a publisher certificate: Windows may show a SmartScreen warning (“More info” → “Run anyway”).
 - The program is unofficial; adb (Google) and scrcpy (Genymobile) are inside, Apache-2.0.
+- The video call goes directly between devices (Tailscale on both or one network is needed, there is no relay) and uses WebView2 from Windows 10 and 11.
