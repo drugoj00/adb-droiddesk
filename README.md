@@ -8,29 +8,25 @@ Description and screenshots: https://drugoj00.github.io/phone-in-window-with-sou
 
 # ADB DroidDesk
 
-Android and Android TV from your PC: install any app, adapt apps for a TV box, and Long Scissors for screenshots and video.
+Android and Android TV from your PC: install any app, adapt apps for a TV box, and the screen and files of another PC.
 
-A free Windows program for phones, tablets and Android TV boxes over USB and Wi-Fi. The focus is Android TV: put anything on a box without a file manager, switch on accessibility services where the system blocks them, adapt a phone app for TV, make a banner. Plus Long Scissors: screenshots (long pages too), video and GIF recording, an editor and text from a shot. The rest is in one window: screen with sound, apps, files, adb console, cleaner, backups. adb and scrcpy are inside, nothing else to install.
+A free Windows program for phones, tablets and Android TV boxes over USB and Wi-Fi. The focus is Android TV: put anything on a box without a file manager, switch on accessibility services where the system blocks them, adapt a phone app for TV, make a banner. Plus “Remote desk”: the screen of another computer in the program window and a two-pane “this PC ⇄ that PC” file manager. The rest is in one window: screen with sound, apps, files, adb console, cleaner, backups. adb and scrcpy are inside, nothing else to install.
 
 ⭐ If the program is useful, please star this repository: it costs nothing and helps other people find it.
 
 ## Download
 
-**Version 3.0.** [ADBDroidDesk-3.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
+**Version 4.0.** [ADBDroidDesk-4.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
 
-SHA-256: `f178316c9078d022b54fe239e97d6df442bedacea9fd7e3a2977dc80212b5da0`
+SHA-256: `16f53cd3b49aaa116a6be7f26f630b674f03ad68888cae05565b14aed02510aa`
 
-## What's new in 3.0
+## What's new in 4.0
 
-- “Connect” tab: devices over the internet through Tailscale, ADB connection, link check, file (Taildrop).
-- Video call without a browser: pick a person, “Calling… Answer / Decline”, sound, speaker and camera buttons.
-- A wizard that sets up Tailscale on the PC and on an Android device.
-- Invitations by program code: bring a person into your network and accept an invitation.
-- Screen of another computer and “Access to this screen”.
-- Files: two panes, copy, move and delete between the PC, a device and another computer.
-- Auto-connect of known devices over the home network and through Tailscale.
-- Program update from GitHub: release check and install over.
-- Fixed: a second icon on Samsung after installing an APK.
+- “Remote desk” tab: the screen of another computer opens in the program window (monitor choice, fit to window, clipboard); the other computer must confirm “Allow?”.
+- A two-pane “this PC ⇄ that PC” file manager next to it: copy, move, delete, rename, F5–F8, Tab, drag and drop, progress and cancel, a choice on name conflicts.
+- [Long Scissors](https://drugoj00.github.io/phone-in-window-with-sound/long-scissors.html) moved out into a separate program ([GitHub](https://github.com/drugoj00/long-scissors)): the installer is smaller.
+- A device screenshot is saved to “Pictures\ADB DroidDesk” and copied to the clipboard.
+- Fixed: no separate fixes in this version.
 
 ## Features
 
@@ -46,20 +42,13 @@ SHA-256: `f178316c9078d022b54fe239e97d6df442bedacea9fd7e3a2977dc80212b5da0`
 - Banners 320×180, 640×360, 1280×720; icon and cover images from Google Play.
 - Remote: arrows, OK, Back, Home, volume, text input; to several devices at once.
 
-### Long Scissors
-
-- Area, window, whole screen and a long page with auto-scroll.
-- Video with sound and GIFs with a size limit.
-- Editor, “Pretty”, text from a shot (OCR), history with search, joining and converting.
-- A click on the tray icon captures at once; Ctrl+Shift+S opens the panel.
-
 ### Connection over the internet
 
 - “Connect” tab: Tailscale network devices, link type (direct or relay), ADB connection, link check.
 - Wizard: Tailscale on the PC and on an Android device, sign-in by key; file sending (Taildrop).
 - Invitations by program code: bring a person into your network, accept an invitation; keys are one-time, valid for an hour.
 - Video call without a browser: call a person from the list, a “Calling…” window, sound, speaker and camera buttons.
-- Screen of another computer and “Access to this screen”; files of another computer in the “Files” tab.
+- “Remote desk” tab: the screen of another computer in the program window (monitor choice, fit to window, clipboard) with a two-pane “this PC ⇄ that PC” file manager next to it (F5–F8, Tab, drag and drop, progress and cancel); the other computer must confirm “Allow?”. “Access to this screen” is switched on there.
 - Auto-connect of known devices over the home network and through Tailscale.
 
 ### Everything else
@@ -82,12 +71,6 @@ SHA-256: `f178316c9078d022b54fe239e97d6df442bedacea9fd7e3a2977dc80212b5da0`
 
 ![This computer](screenshots/en/11_этот_компьютер.png)
 
-![Long Scissors: capture panel](screenshots/en/12_ножницы_панель.png)
-
-![Long Scissors: editor](screenshots/en/13_ножницы_редактор.png)
-
-![Long Scissors: history and text search](screenshots/en/15_ножницы_история.png)
-
 ![Apps](screenshots/en/06_приложения.png)
 
 ![Files](screenshots/en/07_файлы.png)
@@ -104,7 +87,7 @@ Windows 10 or 11 (64-bit); an Android phone or box with debugging on (USB or net
 
 ## Quick start
 
-1. Download ADBDroidDesk-3.0.exe and run it; Windows asks for permission (if declined, the program goes into your user folder).
+1. Download ADBDroidDesk-4.0.exe and run it; Windows asks for permission (if declined, the program goes into your user folder).
 2. On the device: Developer options → USB debugging (a box: network debugging); connect the cable and allow debugging.
 3. A box over Wi-Fi: “+ Wi-Fi” → IP and port, usually 5555.
 4. Android TV → Install: drop app files into the window and press Install.
@@ -119,3 +102,4 @@ Windows 10 or 11 (64-bit); an Android phone or box with debugging on (USB or net
 - The installer is not signed with a publisher certificate: Windows may show a SmartScreen warning (“More info” → “Run anyway”).
 - The program is unofficial; adb (Google) and scrcpy (Genymobile) are inside, Apache-2.0.
 - The video call goes directly between devices (Tailscale on both or one network is needed, there is no relay) and uses WebView2 from Windows 10 and 11.
+- “Remote desk”: Tailscale is needed on both computers (or one network), “Access to this screen” must be on at the other computer and its “Program code” entered; the screen does not open without the “Allow?” confirmation.
