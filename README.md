@@ -18,7 +18,7 @@ A free Windows program for phones, tablets and Android TV boxes over USB and Wi-
 
 **Version 4.0.** [ADBDroidDesk-4.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
 
-SHA-256: `811627f309e8755f5c5c67def80339cf82989f7473e3e146ba1c2746888b1d98`
+SHA-256: `f48b1d5cdaff0ac848e65ba18a9fe6ed4d2ff75590f3338556fd1ffc8c98f991`
 
 ## What's new in 4.0
 
