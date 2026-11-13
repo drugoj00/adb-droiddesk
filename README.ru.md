@@ -18,7 +18,7 @@ Android и Android TV с компьютера: установка любых п�
 
 **Версия 4.0.** [ADBDroidDesk-4.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
 
-SHA-256: `16f53cd3b49aaa116a6be7f26f630b674f03ad68888cae05565b14aed02510aa`
+SHA-256: `811627f309e8755f5c5c67def80339cf82989f7473e3e146ba1c2746888b1d98`
 
 ## Что нового в 4.0
 
