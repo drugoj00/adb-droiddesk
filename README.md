@@ -16,9 +16,14 @@ A free Windows program for phones, tablets and Android TV boxes over USB and Wi-
 
 ## Download
 
-**Version 4.0.** [ADBDroidDesk-4.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
+**Version 5.0.** [ADBDroidDesk-5.0.exe](https://github.com/drugoj00/adb-droiddesk/releases/latest) (Assets) · [Releases](https://github.com/drugoj00/adb-droiddesk/releases)
 
-SHA-256: `f48b1d5cdaff0ac848e65ba18a9fe6ed4d2ff75590f3338556fd1ffc8c98f991`
+SHA-256: `f2ab79d90a062d70c88f4595c7c4347fd44683f1f876d62a0cdfae9e8080ff1e`
+
+## What's new in 5.0
+
+- “Task manager” tab: processes (search, end task and process tree, priority), performance (CPU, memory, disk, network), startup items, services, Windows safe mode.
+- Fixed: the “Unhandled exception in script” window when reading phone app names (SmartThings and others with invisible characters in the name).
 
 ## What's new in 4.0
 
@@ -60,6 +65,7 @@ SHA-256: `f48b1d5cdaff0ac848e65ba18a9fe6ed4d2ff75590f3338556fd1ffc8c98f991`
 - Cleaner with a database of known bloatware and rollback; app backups.
 - Device overview like CPU-Z: CPU, memory, battery, display, cameras, sensors; a “This computer” tab does the same for the Windows PC itself.
 - Several devices at once, USB and Wi-Fi, pairing by code; tray icon; Russian, Ukrainian, English; light and dark theme.
+- Task manager tab: processes, performance, startup items, services, Windows safe mode.
 
 ## Screenshots
 
