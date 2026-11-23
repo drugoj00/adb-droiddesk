@@ -28,7 +28,7 @@ SHA-256: `f2ab79d90a062d70c88f4595c7c4347fd44683f1f876d62a0cdfae9e8080ff1e`
 ## What's new in 4.0
 
 - “Remote desk” tab: the screen of another computer opens in the program window (monitor choice, fit to window, clipboard); the other computer must confirm “Allow?”.
-- A two-pane “this PC ⇄ that PC” file manager next to it: copy, move, delete, rename, F5–F8, Tab, drag and drop, progress and cancel, a choice on name conflicts.
+- A two-pane “this PC ⇄ that PC” file manager next to it: copy, move, delete, rename, F5-F8, Tab, drag and drop, progress and cancel, a choice on name conflicts.
 - [Long Scissors](https://drugoj00.github.io/phone-in-window-with-sound/long-scissors.html) moved out into a separate program ([GitHub](https://github.com/drugoj00/long-scissors)): the installer is smaller.
 - A device screenshot is saved to “Pictures\ADB DroidDesk” and copied to the clipboard.
 - Fixed: no separate fixes in this version.
@@ -42,7 +42,7 @@ SHA-256: `f2ab79d90a062d70c88f4595c7c4347fd44683f1f876d62a0cdfae9e8080ff1e`
 - The right package parts are chosen for the device CPU, screen density and language.
 - Install an older version over a newer one; where Android 12+ refuses, a replace with a backup and rollback (data is deleted).
 - Old apps on Android 14: bypass of the “target SDK too old” block.
-- Accessibility: enable a service and “restricted settings” with adb commands (Android 13–14).
+- Accessibility: enable a service and “restricted settings” with adb commands (Android 13-14).
 - Adapt for TV: Android TV launcher entry, no touchscreen requirement, 64-bit libraries from another build, signing.
 - Banners 320×180, 640×360, 1280×720; icon and cover images from Google Play.
 - Remote: arrows, OK, Back, Home, volume, text input; to several devices at once.
@@ -53,7 +53,7 @@ SHA-256: `f2ab79d90a062d70c88f4595c7c4347fd44683f1f876d62a0cdfae9e8080ff1e`
 - Wizard: Tailscale on the PC and on an Android device, sign-in by key; file sending (Taildrop).
 - Invitations by program code: bring a person into your network, accept an invitation; keys are one-time, valid for an hour.
 - Video call without a browser: call a person from the list, a “Calling…” window, sound, speaker and camera buttons.
-- “Remote desk” tab: the screen of another computer in the program window (monitor choice, fit to window, clipboard) with a two-pane “this PC ⇄ that PC” file manager next to it (F5–F8, Tab, drag and drop, progress and cancel); the other computer must confirm “Allow?”. “Access to this screen” is switched on there.
+- “Remote desk” tab: the screen of another computer in the program window (monitor choice, fit to window, clipboard) with a two-pane “this PC ⇄ that PC” file manager next to it (F5-F8, Tab, drag and drop, progress and cancel); the other computer must confirm “Allow?”. “Access to this screen” is switched on there.
 - Auto-connect of known devices over the home network and through Tailscale.
 
 ### Everything else
